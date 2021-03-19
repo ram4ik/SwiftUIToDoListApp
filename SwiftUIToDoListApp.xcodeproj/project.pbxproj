@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9526DE9A2604A9C100B019DC /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9526DE992604A9C100B019DC /* ListViewModel.swift */; };
 		95671E102600CED20042BAD3 /* SwiftUIToDoListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95671E0F2600CED20042BAD3 /* SwiftUIToDoListAppApp.swift */; };
 		95671E142600CED50042BAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95671E132600CED50042BAD3 /* Assets.xcassets */; };
 		95671E172600CED50042BAD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95671E162600CED50042BAD3 /* Preview Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9526DE992604A9C100B019DC /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		95671E0C2600CED20042BAD3 /* SwiftUIToDoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIToDoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95671E0F2600CED20042BAD3 /* SwiftUIToDoListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIToDoListAppApp.swift; sourceTree = "<group>"; };
 		95671E132600CED50042BAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9526DE972604A9A100B019DC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9526DE992604A9C100B019DC /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		95671E032600CED20042BAD3 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		95671E0E2600CED20042BAD3 /* SwiftUIToDoListApp */ = {
 			isa = PBXGroup;
 			children = (
+				9526DE972604A9A100B019DC /* ViewModels */,
 				95671E6A2603A84C0042BAD3 /* Models */,
 				95671E1F2600CF5E0042BAD3 /* Views */,
 				95671E0F2600CED20042BAD3 /* SwiftUIToDoListAppApp.swift */,
@@ -165,6 +176,7 @@
 			files = (
 				95671E6C2603A8690042BAD3 /* ItemModel.swift in Sources */,
 				95671E292600D82D0042BAD3 /* AddView.swift in Sources */,
+				9526DE9A2604A9C100B019DC /* ListViewModel.swift in Sources */,
 				95671E102600CED20042BAD3 /* SwiftUIToDoListAppApp.swift in Sources */,
 				95671E212600CF740042BAD3 /* ListView.swift in Sources */,
 				95671E262600D6C40042BAD3 /* ListRowView.swift in Sources */,
